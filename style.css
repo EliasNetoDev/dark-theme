@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    width: 100%;
+    padding: 20px 0;
+    background-color: #000;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul,li{
+    display: flex;
+    margin-left: 20px;
+    letter-spacing: 4px;
+}
+
+.logo{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+a{
+    color: #fff;
+}
+
+a:hover{
+    opacity: 0.7;
+}
