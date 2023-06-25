@@ -45,10 +45,6 @@ a{
     font-weight: 600;
 }
 
-a::before{
-    color: var(--linkColor);
-}
-
 a:hover{
     opacity: 0.7;
 }
@@ -86,21 +82,19 @@ a:hover{
     border-radius: 50%;
     border: none;
     color: var(--fontColorBtn);
-    background-color: var(--btnBg);
+    background-color: var(--bgBtn);
 }
 
 .light-theme{
     --bg: var(--white);
     --fontColor: var(--black);
     --bgBtn: var(--black);
-    --fontColorBtn: var(--white);
-    --linkColor: var(--white);
+    --fontColorBtn: var(--green);
 }
 
 .dark-theme{
     --bg: var(--black);
-    --fontColor: var(--white);
+    --fontColor: var(--green);
     --bgBtn: var(--white);
-    --fontColorBtn: var(--black);
-    --linkColor: var(--green);
+    --fontColorBtn: var(--green);
 }
