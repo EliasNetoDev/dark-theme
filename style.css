@@ -62,3 +62,13 @@ a:hover{
     max-width: 90%;
     margin: 0 auto
 }
+
+.btn{
+    position: absolute;
+    top: 72px;
+    right: 64px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+}
