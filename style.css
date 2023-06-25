@@ -10,6 +10,11 @@
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     list-style: none;
+    color: var(--fontColor)
+}
+
+body{
+    background-color: var(--bg);
 }
 
 header{
@@ -38,6 +43,10 @@ ul,li{
 a{
     color: #fff;
     font-weight: 600;
+}
+
+a::before{
+    color: var(--linkColor);
 }
 
 a:hover{
@@ -76,4 +85,22 @@ a:hover{
     height: 50px;
     border-radius: 50%;
     border: none;
+    color: var(--fontColorBtn);
+    background-color: var(--btnBg);
+}
+
+.light-theme{
+    --bg: var(--white);
+    --fontColor: var(--black);
+    --bgBtn: var(--black);
+    --fontColorBtn: var(--white);
+    --linkColor: var(--white);
+}
+
+.dark-theme{
+    --bg: var(--black);
+    --fontColor: var(--white);
+    --bgBtn: var(--white);
+    --fontColorBtn: var(--black);
+    --linkColor: var(--green);
 }
